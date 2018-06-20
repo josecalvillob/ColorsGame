@@ -53,8 +53,6 @@ function init(){
          });
      }
  }
-
-
 function reset(){
     //generate new colors
     colors = generateRandomColors(numOfSquares);
@@ -72,15 +70,9 @@ function reset(){
         }else {
             squares[i].style.display = "none";
         }
-
     }
-
     h1.style.backgroundColor = "steelblue";
-
 }
-
-
-
 function changeColor(color){
     for(var i = 0; i < squares.length; i++){
         squares[i].style.backgroundColor = color;
