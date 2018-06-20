@@ -11,6 +11,7 @@ var newColors = document.getElementById("newColorButton");
 colorDisplay.textContent = pickedColor;
 var easyButton = document.getElementById("easyButton");
 var hardButton = document.getElementById("hardButton");
+var modeButtons = document.querySelectorAll(".mode");
 
 easyButton.addEventListener("click", function(){
     this.classList.add("selected");
